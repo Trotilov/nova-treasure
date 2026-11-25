@@ -49,7 +49,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if ! gh release view v0.2 >/dev/null 2>&1; then
-            gh release create v0.2 --target "$GITHUB_SHA" --title "NOVA Treasure v0.2" --notes "Debug APK; public online map overlay."
+          if ! gh release view v0.3 >/dev/null 2>&1; then
+            gh release create v0.3 --target "$GITHUB_SHA" --title "NOVA Treasure v0.3" --notes "Debug APK; native offline imported map overlay."
           fi
-          gh release upload v0.2 NOVA-Treasure.apk --clobber
+          gh release upload v0.3 NOVA-Treasure.apk --clobber
