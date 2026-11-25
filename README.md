@@ -1,1 +1,2 @@
-# nova-treasure
+# NOVA Treasure v0.1
+Android floating public map companion. Install the debug APK from Releases, grant display over other apps, start NOVA, open Fortnite. Tap NOVA to expand, drag title to move, +/- changes size, X stops. Internet required. Public Burnaviour map (https://burnaviour.dev/map/?layers=chests,rare-chests), not live game data. No game memory, screen capture, root or automation. Overlay compatibility and compliance are not guaranteed. Unofficial; not affiliated with Epic Games.
